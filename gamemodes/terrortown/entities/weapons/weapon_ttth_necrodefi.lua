@@ -266,11 +266,6 @@ if SERVER then
 			return
 		end
 
-		if CORPSE.GetPlayer(ent):GetSubRole() == ROLE_ZOMBIE then
-			self:Error(DEFI_ERROR_ZOMBIE)
-
-			return
-		end
 
 		if not spawnPoint then
 			self:Error(DEFI_ERROR_NO_SPACE)
