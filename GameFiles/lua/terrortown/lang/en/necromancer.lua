@@ -1,7 +1,7 @@
 L = LANG.GetLanguageTableReference("en")
 
 -- GENERAL ROLE LANGUAGE STRINGS
-L[NECROMANCER.name] = "Necromancer"
+L[NECROMANCER.name] = "ZNecromancer"
 L[NECROMANCER.defaultTeam] = "Team Necromancer"
 L["hilite_win_" .. NECROMANCER.defaultTeam] = "TEAM NECROMANCER WON"
 L["win_" .. NECROMANCER.defaultTeam] = "The Necromancer has won!"

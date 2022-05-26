@@ -243,7 +243,7 @@ if SERVER then
 			ammo = ammo - 1
 		end
 
-		self:SetClip1(ammo)
+		self:SetClip1(100)
 	end
 
 	function SWEP:PrimaryAttack()
